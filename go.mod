@@ -2,6 +2,13 @@ module github.com/bogdanfinn/tls-client
 
 go 1.27
 
+retract (
+	v1.17.1 // Contains retractions only.
+	v1.17.0 // Stale tag from a previous fork, cached by proxy.golang.org.
+	v1.16.0 // Stale tag from a previous fork, cached by proxy.golang.org.
+	v1.15.0 // Stale tag from a previous fork, cached by proxy.golang.org.
+)
+
 require (
 	github.com/bdandy/go-socks4 v1.2.3
 	github.com/bogdanfinn/fhttp v0.7.2
