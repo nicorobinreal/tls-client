@@ -1,8 +1,8 @@
 package profiles
 
 import (
-	"github.com/albinstman/fhttp/http2"
-	tls "github.com/albinstman/utls"
+	"github.com/nicorobinreal/fhttp/http2"
+	tls "github.com/nicorobinreal/utls"
 )
 
 var Chrome_150_PSK = ClientProfile{

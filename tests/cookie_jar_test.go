@@ -5,10 +5,10 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/albinstman/tls-client/profiles"
+	"github.com/nicorobinreal/tls-client/profiles"
 
-	http "github.com/albinstman/fhttp"
-	tls_client "github.com/albinstman/tls-client"
+	http "github.com/nicorobinreal/fhttp"
+	tls_client "github.com/nicorobinreal/tls-client"
 	"github.com/stretchr/testify/assert"
 )
 

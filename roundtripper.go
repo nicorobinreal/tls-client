@@ -9,12 +9,12 @@ import (
 	"sync"
 	"time"
 
-	http "github.com/albinstman/fhttp"
-	"github.com/albinstman/fhttp/http2"
-	"github.com/albinstman/quic-go-utls/http3"
-	"github.com/albinstman/tls-client/bandwidth"
-	"github.com/albinstman/tls-client/profiles"
-	tls "github.com/albinstman/utls"
+	http "github.com/nicorobinreal/fhttp"
+	"github.com/nicorobinreal/fhttp/http2"
+	"github.com/nicorobinreal/quic-go-utls/http3"
+	"github.com/nicorobinreal/tls-client/bandwidth"
+	"github.com/nicorobinreal/tls-client/profiles"
+	tls "github.com/nicorobinreal/utls"
 	"golang.org/x/net/proxy"
 )
 
@@ -558,7 +558,7 @@ func newRoundTripper(clientProfile profiles.ClientProfile, transportOptions *Tra
 	// verified-egress: force TLS session resumption / 0-RTT OFF by leaving the
 	// client session cache nil. Every outbound handshake is then a full handshake
 	// whose handshake_secret is pinned by the server Finished (see the
-	// albinstman/utls UTLS_HANDSHAKE_SECRET export). OmitEmptyPsk (set on every
+	// nicorobinreal/utls UTLS_HANDSHAKE_SECRET export). OmitEmptyPsk (set on every
 	// tls.Config below) drops the now-empty PSK extension, so the full-handshake
 	// fingerprint is unchanged.
 	var clientSessionCache tls.ClientSessionCache

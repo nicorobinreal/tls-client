@@ -1,4 +1,4 @@
-module github.com/albinstman/tls-client
+module github.com/nicorobinreal/tls-client
 
 go 1.24.1
 
@@ -10,10 +10,10 @@ retract (
 )
 
 require (
-	github.com/albinstman/fhttp v0.6.8-albinstman.2
-	github.com/albinstman/quic-go-utls v1.0.9-albinstman.2
-	github.com/albinstman/utls v1.7.7-albinstman.3
-	github.com/albinstman/websocket v1.5.5-albinstman.2
+	github.com/nicorobinreal/fhttp v0.6.8-albinstman.2
+	github.com/nicorobinreal/quic-go-utls v1.0.9-albinstman.2
+	github.com/nicorobinreal/utls v1.7.7-albinstman.3
+	github.com/nicorobinreal/websocket v1.5.5-albinstman.2
 	github.com/bdandy/go-socks4 v1.2.3
 	github.com/google/uuid v1.6.0
 	github.com/stretchr/testify v1.11.1
@@ -35,10 +35,10 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-// replace github.com/albinstman/utls => ../utls
+// replace github.com/nicorobinreal/utls => ../utls
 
-// replace github.com/albinstman/quic-go-utls => ../quic-go-utls
+// replace github.com/nicorobinreal/quic-go-utls => ../quic-go-utls
 
-// replace github.com/albinstman/websocket => ../websocket
+// replace github.com/nicorobinreal/websocket => ../websocket
 
-// replace github.com/albinstman/fhttp => ../fhttp
+// replace github.com/nicorobinreal/fhttp => ../fhttp

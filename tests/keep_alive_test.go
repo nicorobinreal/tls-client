@@ -6,10 +6,10 @@ import (
 	"slices"
 	"testing"
 
-	http "github.com/albinstman/fhttp"
-	"github.com/albinstman/fhttp/httptest"
-	tls_client "github.com/albinstman/tls-client"
-	"github.com/albinstman/tls-client/profiles"
+	http "github.com/nicorobinreal/fhttp"
+	"github.com/nicorobinreal/fhttp/httptest"
+	tls_client "github.com/nicorobinreal/tls-client"
+	"github.com/nicorobinreal/tls-client/profiles"
 	"github.com/stretchr/testify/assert"
 )
 

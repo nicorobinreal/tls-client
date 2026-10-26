@@ -12,10 +12,10 @@ import (
 	"sync"
 	"time"
 
-	http "github.com/albinstman/fhttp"
-	"github.com/albinstman/fhttp/httputil"
-	"github.com/albinstman/tls-client/bandwidth"
-	"github.com/albinstman/tls-client/profiles"
+	http "github.com/nicorobinreal/fhttp"
+	"github.com/nicorobinreal/fhttp/httputil"
+	"github.com/nicorobinreal/tls-client/bandwidth"
+	"github.com/nicorobinreal/tls-client/profiles"
 	"golang.org/x/net/html/charset"
 	"golang.org/x/net/proxy"
 )

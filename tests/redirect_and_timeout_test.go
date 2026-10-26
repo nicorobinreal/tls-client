@@ -2,13 +2,13 @@ package tests
 
 import (
 	"fmt"
-	"github.com/albinstman/tls-client/profiles"
+	"github.com/nicorobinreal/tls-client/profiles"
 	"testing"
 	"time"
 
-	http "github.com/albinstman/fhttp"
-	"github.com/albinstman/fhttp/httptest"
-	tls_client "github.com/albinstman/tls-client"
+	http "github.com/nicorobinreal/fhttp"
+	"github.com/nicorobinreal/fhttp/httptest"
+	tls_client "github.com/nicorobinreal/tls-client"
 	"github.com/stretchr/testify/assert"
 )
 
