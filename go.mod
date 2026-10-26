@@ -10,12 +10,12 @@ retract (
 )
 
 require (
-	github.com/nicorobinreal/fhttp v0.6.8-albinstman.2
-	github.com/nicorobinreal/quic-go-utls v1.0.9-albinstman.2
-	github.com/nicorobinreal/utls v1.7.7-albinstman.3
-	github.com/nicorobinreal/websocket v1.5.5-albinstman.2
 	github.com/bdandy/go-socks4 v1.2.3
 	github.com/google/uuid v1.6.0
+	github.com/nicorobinreal/fhttp v0.6.8-nicorobinreal.1
+	github.com/nicorobinreal/quic-go-utls v1.0.9-nicorobinreal.1
+	github.com/nicorobinreal/utls v1.7.7-nicorobinreal.1
+	github.com/nicorobinreal/websocket v1.5.5-nicorobinreal.1
 	github.com/stretchr/testify v1.11.1
 	github.com/tam7t/hpkp v0.0.0-20160821193359-2b70b4024ed5
 	golang.org/x/net v0.48.0
