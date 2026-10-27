@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bogdanfinn/fhttp/http2"
-	"github.com/bogdanfinn/fhttp/http2/hpack"
-	"github.com/bogdanfinn/tls-client/profiles"
+	"github.com/nicorobinreal/fhttp/http2"
+	"github.com/nicorobinreal/fhttp/http2/hpack"
+	"github.com/nicorobinreal/tls-client/profiles"
 )
 
 // TestHTTP2ReadIdleTimeoutPingsIdleConnection checks that ReadIdleTimeout and

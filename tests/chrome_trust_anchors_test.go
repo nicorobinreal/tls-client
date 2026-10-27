@@ -14,10 +14,10 @@ import (
 	"strings"
 	"testing"
 
-	http "github.com/bogdanfinn/fhttp"
-	tls_client "github.com/bogdanfinn/tls-client"
-	"github.com/bogdanfinn/tls-client/profiles"
-	tls "github.com/bogdanfinn/utls"
+	http "github.com/nicorobinreal/fhttp"
+	tls_client "github.com/nicorobinreal/tls-client"
+	"github.com/nicorobinreal/tls-client/profiles"
+	tls "github.com/nicorobinreal/utls"
 )
 
 // trustAnchorsExtension is the code point of the trust_anchors extension.

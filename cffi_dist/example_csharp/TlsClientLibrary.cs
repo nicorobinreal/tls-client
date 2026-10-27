@@ -8,7 +8,7 @@ namespace TlsClientExamples;
 /// <summary>
 /// Thin wrapper around the tls-client shared library's C ABI. Point
 /// LibraryPath at the shared library you downloaded from
-/// https://github.com/bogdanfinn/tls-client/releases (or built yourself) -
+/// https://github.com/nicorobinreal/tls-client/releases (or built yourself) -
 /// the exact file name depends on your OS, architecture and version.
 /// </summary>
 internal static class TlsClientLibrary

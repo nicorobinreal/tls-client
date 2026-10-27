@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bogdanfinn/fhttp"
-	"github.com/bogdanfinn/fhttp/httptest"
-	tls_client "github.com/bogdanfinn/tls-client"
-	"github.com/bogdanfinn/tls-client/profiles"
-	gorillaWebsocket "github.com/bogdanfinn/websocket"
+	"github.com/nicorobinreal/fhttp"
+	"github.com/nicorobinreal/fhttp/httptest"
+	tls_client "github.com/nicorobinreal/tls-client"
+	"github.com/nicorobinreal/tls-client/profiles"
+	gorillaWebsocket "github.com/nicorobinreal/websocket"
 	"github.com/stretchr/testify/require"
 )
 

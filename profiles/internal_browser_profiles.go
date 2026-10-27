@@ -1,10 +1,10 @@
 package profiles
 
 import (
-	"github.com/bogdanfinn/tls-client/trust_anchors"
+	"github.com/nicorobinreal/tls-client/trust_anchors"
 
-	"github.com/bogdanfinn/fhttp/http2"
-	tls "github.com/bogdanfinn/utls"
+	"github.com/nicorobinreal/fhttp/http2"
+	tls "github.com/nicorobinreal/utls"
 )
 
 var Chrome_152_PSK = ClientProfile{
