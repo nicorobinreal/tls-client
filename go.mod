@@ -11,11 +11,11 @@ retract (
 
 require (
 	github.com/bdandy/go-socks4 v1.2.3
-	github.com/nicorobinreal/fhttp v0.7.2
-	github.com/nicorobinreal/quic-go-utls v1.0.12-utls
-	github.com/nicorobinreal/utls v1.8.2-barnius
-	github.com/nicorobinreal/websocket v1.5.8-barnius
 	github.com/google/uuid v1.6.0
+	github.com/nicorobinreal/fhttp v0.7.2-nicorobinreal.1
+	github.com/nicorobinreal/quic-go-utls v1.0.12-nicorobinreal.1
+	github.com/nicorobinreal/utls v1.8.2-nicorobinreal.1
+	github.com/nicorobinreal/websocket v1.5.8-nicorobinreal.1
 	github.com/stretchr/testify v1.11.1
 	github.com/tam7t/hpkp v0.0.0-20160821193359-2b70b4024ed5
 	golang.org/x/net v0.59.0
