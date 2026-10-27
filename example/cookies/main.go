@@ -8,9 +8,9 @@ import (
 	"log"
 	"net/url"
 
-	http "github.com/bogdanfinn/fhttp"
-	tls_client "github.com/bogdanfinn/tls-client"
-	"github.com/bogdanfinn/tls-client/profiles"
+	http "github.com/nicorobinreal/fhttp"
+	tls_client "github.com/nicorobinreal/tls-client"
+	"github.com/nicorobinreal/tls-client/profiles"
 )
 
 func main() {

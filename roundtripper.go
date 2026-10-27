@@ -11,12 +11,12 @@ import (
 	"time"
 	"unicode"
 
-	http "github.com/bogdanfinn/fhttp"
-	"github.com/bogdanfinn/fhttp/http2"
-	"github.com/bogdanfinn/quic-go-utls/http3"
-	"github.com/bogdanfinn/tls-client/bandwidth"
-	"github.com/bogdanfinn/tls-client/profiles"
-	tls "github.com/bogdanfinn/utls"
+	http "github.com/nicorobinreal/fhttp"
+	"github.com/nicorobinreal/fhttp/http2"
+	"github.com/nicorobinreal/quic-go-utls/http3"
+	"github.com/nicorobinreal/tls-client/bandwidth"
+	"github.com/nicorobinreal/tls-client/profiles"
+	tls "github.com/nicorobinreal/utls"
 	"golang.org/x/net/idna"
 	"golang.org/x/net/proxy"
 )

@@ -1,4 +1,4 @@
-module github.com/bogdanfinn/tls-client
+module github.com/nicorobinreal/tls-client
 
 go 1.27
 
@@ -11,10 +11,10 @@ retract (
 
 require (
 	github.com/bdandy/go-socks4 v1.2.3
-	github.com/bogdanfinn/fhttp v0.7.2
-	github.com/bogdanfinn/quic-go-utls v1.0.12-utls
-	github.com/bogdanfinn/utls v1.8.2-barnius
-	github.com/bogdanfinn/websocket v1.5.8-barnius
+	github.com/nicorobinreal/fhttp v0.7.2
+	github.com/nicorobinreal/quic-go-utls v1.0.12-utls
+	github.com/nicorobinreal/utls v1.8.2-barnius
+	github.com/nicorobinreal/websocket v1.5.8-barnius
 	github.com/google/uuid v1.6.0
 	github.com/stretchr/testify v1.11.1
 	github.com/tam7t/hpkp v0.0.0-20160821193359-2b70b4024ed5
@@ -36,10 +36,10 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-// replace github.com/bogdanfinn/utls => ../utls
+// replace github.com/nicorobinreal/utls => ../utls
 
-// replace github.com/bogdanfinn/quic-go-utls => ../quic-go-utls
+// replace github.com/nicorobinreal/quic-go-utls => ../quic-go-utls
 
-// replace github.com/bogdanfinn/websocket => ../websocket
+// replace github.com/nicorobinreal/websocket => ../websocket
 
-// replace github.com/bogdanfinn/fhttp => ../fhttp
+// replace github.com/nicorobinreal/fhttp => ../fhttp

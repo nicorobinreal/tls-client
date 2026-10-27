@@ -105,7 +105,7 @@ export class TLSClient implements TLSClientInstance {
 
 // Release assets are published as
 // tls-client-xgo-<version>-<goos>-<goarch>.<ext>, see
-// https://github.com/bogdanfinn/tls-client/releases - bump this when you
+// https://github.com/nicorobinreal/tls-client/releases - bump this when you
 // download a newer shared library.
 const TLS_CLIENT_VERSION = '1.16.0';
 

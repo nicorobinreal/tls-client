@@ -11,14 +11,14 @@ import (
 	"os"
 	"sync"
 
-	"github.com/bogdanfinn/tls-client/profiles"
+	"github.com/nicorobinreal/tls-client/profiles"
 	"golang.org/x/net/html/charset"
 
-	http "github.com/bogdanfinn/fhttp"
-	"github.com/bogdanfinn/fhttp/cookiejar"
-	"github.com/bogdanfinn/fhttp/http2"
-	tls_client "github.com/bogdanfinn/tls-client"
-	tls "github.com/bogdanfinn/utls"
+	http "github.com/nicorobinreal/fhttp"
+	"github.com/nicorobinreal/fhttp/cookiejar"
+	"github.com/nicorobinreal/fhttp/http2"
+	tls_client "github.com/nicorobinreal/tls-client"
+	tls "github.com/nicorobinreal/utls"
 	"github.com/google/uuid"
 )
 

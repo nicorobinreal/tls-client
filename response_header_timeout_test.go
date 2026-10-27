@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bogdanfinn/tls-client/profiles"
+	"github.com/nicorobinreal/tls-client/profiles"
 )
 
 // TestResponseHeaderTimeout checks that TransportOptions.ResponseHeaderTimeout
