@@ -2038,6 +2038,7 @@ var Safari_IOS_26_0 = ClientProfile{
 		":authority",
 		":path",
 	},
+	headerPriority: &http2.PriorityParam{},
 	connectionFlow: 10420225,
 }
 
